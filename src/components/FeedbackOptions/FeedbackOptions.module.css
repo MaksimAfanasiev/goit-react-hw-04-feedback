@@ -1,0 +1,13 @@
+.btnList {
+    display: flex;
+    padding-left: 20px;
+}
+
+.btnList_item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.btnList_item__button {
+    text-transform: capitalize;
+    cursor: pointer;
+}
